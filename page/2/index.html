@@ -1,0 +1,126 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Hexo</title><meta name="description"><meta name="author" content="John Doe"><meta name="copyright" content="John Doe"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://yoursite.com/page/2/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="website"><meta property="og:title" content="Hexo"><meta property="og:url" content="http://yoursite.com/page/2/"><meta property="og:site_name" content="Hexo"><meta property="og:description"><meta property="og:image" content="http://yoursite.com/img/avatar.png"><meta property="article:published_time" content="2020-08-01T11:37:05.765Z"><meta property="article:modified_time" content="2020-08-01T11:37:05.765Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  bookmark: {
+    message_prev: 'Press',
+    message_next: 'to bookmark this page'
+  },
+  runtime_unit: 'days',
+  runtime: false,
+  copyright: undefined,
+  ClickShowText: undefined,
+  medium_zoom: false,
+  fancybox: true,
+  Snackbar: undefined,
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isSidebar: false,
+  postUpdate: '2020-08-01 19:37:05'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><meta name="generator" content="Hexo 5.0.0"></head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">Articles</div><div class="length_num">13</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">Tags</div><div class="length_num">8</div></a></div></div></div><hr/></div></div><div id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(https://i.loli.net/2020/05/01/IuWi8QbHvzjlOPw.jpg)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">Hexo</a></span><span class="pull-right menus"><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="site-info"><h1 id="site_title">Hexo</h1><div id="site_subtitle"><span id="subtitle"></span></div></div><div id="scroll_down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout_page" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/07/15/computer/" title="《计算机是怎么跑起来的》">     <img class="post_bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="《计算机是怎么跑起来的》"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/15/computer/" title="《计算机是怎么跑起来的》">《计算机是怎么跑起来的》</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-07-15T02:49:02.000Z" title="Created 2020-07-15 10:49:02">2020-07-15</time></span></div><div class="content">读后感</div></div></div><div class="recent-post-item"><div class="post_cover right_radius"><a href="/2020/07/15/AE/" title="AE表达式学习">     <img class="post_bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="AE表达式学习"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/15/AE/" title="AE表达式学习">AE表达式学习</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-07-15T02:10:21.000Z" title="Created 2020-07-15 10:10:21">2020-07-15</time></span></div><div class="content">什么是表达式？
+表达式的本质是通过 设定的条件，计算出的值 。即表达式的条件是自己设定的，写的表达式就是为了设定条件，而最终得到的就是一个 值值就是操作的所有对象都是通过赋值让它形成我们想要的结果。
+如何使用表达式？
+使用方法及工具
+表达式实际上是要给到某一个具体的合成及某一属性
+对一个属性使用表达式时按住键盘 Alt+鼠标左键  点击时钟按钮即可激活，此时表达式属性的值变为红色，右边弹出表达式输入的窗口。
+对于表达式输入框，可以自定义JS表达式1: “=” 表达式生效开关2: 以曲线的方式看表达式（需结合图表编辑器按钮）3: 橡皮筋按钮 使用它可以和其他属性形成关系4: 表达式菜单
+写表达式就是在写关系，不使用表达式时它是一个固定的值，即表达式是一个动态的值-动态地和某个东西有一定的关系
+如何形成关系？橡皮筋功能就可以形成关系
+可以是某个层的属性和其他属性形成关系，这个属性既可以是其他层，也可以是自己层
+例如：将自己层的透明度、旋转和文本内容的表达式同时激活，文本内容的橡皮筋指向旋转层，旋转层的橡皮筋指向透明度层。此时在透明度表达式的输入框输入值，以上三者将同时变化。
+
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left_radius"><a href="/2020/07/14/gridea-github-page/" title="Gridea配置GitHub Page">     <img class="post_bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Gridea配置GitHub Page"></a></div><div class="recent-post-info"><a class="article-title" href="/2020/07/14/gridea-github-page/" title="Gridea配置GitHub Page">Gridea配置GitHub Page</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">Created</span><time datetime="2020-07-14T06:59:06.000Z" title="Created 2020-07-14 14:59:06">2020-07-14</time></span></div><div class="content">Create a new repository 创建仓库
+Repository name切记要按照正确的格式输入：用户名.github.io
+勾选为public公开仓库，勾选Initialize this repository with a README
+勾选create repository此时仓库项目已创建成功设置项目为 GitHub Page
+点击setting
+将页面滑倒 Github Page处
+在source下将None按钮切换为 master branch
+此时，会出现一串地址 https://你的用户名.github.io 点击访问会出现 README 中描述文字此时GitHub Page创建成功申请 GitHub Token
+点击右上角个人头像，点击Settings
+找到左边选项栏中最后一栏 Developer settings 进入
+点击 Personal access tokens - Generate new token 开始创建Token
+Note 描述随意填写，第一栏的 repo 勾选后移至页面最底部，点击 Generate token 成功创建
+将生成的  ...</div></div></div><nav id="pagination"><div class="pagination"><a class="extend prev" rel="prev" href="/"><i class="fas fa-chevron-left fa-fw"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span></div></nav></div><div class="aside_content" id="aside_content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">John Doe</div><div class="author-info__description"></div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives"><div class="headline">Articles</div><div class="length_num">13</div></a></div><div class="card-info-data-item is-center">      <a href="/tags"><div class="headline">Tags</div><div class="length_num">8</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div></div><div class="card-widget card-announcement"><div class="card-content"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>Announcement</span></div><div class="announcement_content">This is my Blog</div></div></div><div class="card-widget card-recent-post"><div class="card-content"><div class="item-headline"><i class="fas fa-history"></i><span>Recent Post</span></div><div class="aside-recent-item"><div class="aside-recent-post"><a class="aside-post-cover" href="/2020/07/29/Telegram-bot/" title="Telegram-Name-Updating 报时bot"><img class="aside-post-bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Telegram-Name-Updating 报时bot"/></a><div class="aside-post-info"><a class="aside-post-title" href="/2020/07/29/Telegram-bot/" title="Telegram-Name-Updating 报时bot">Telegram-Name-Updating 报时bot</a><time class="aside-post_meta post-meta-date" datetime="2020-07-29T02:44:00.000Z" title="Created 2020-07-29 10:44:00">2020-07-29</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/2020/07/29/Telegram-bot(PagerMaid)/" title="simpread-人形自走 bot PagerMaid-Modify 的食用笔记"><img class="aside-post-bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="simpread-人形自走 bot PagerMaid-Modify 的食用笔记"/></a><div class="aside-post-info"><a class="aside-post-title" href="/2020/07/29/Telegram-bot(PagerMaid)/" title="simpread-人形自走 bot PagerMaid-Modify 的食用笔记">simpread-人形自走 bot PagerMaid-Modify 的食用笔记</a><time class="aside-post_meta post-meta-date" datetime="2020-07-29T02:38:50.000Z" title="Created 2020-07-29 10:38:50">2020-07-29</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/2020/07/26/quantumult-x/" title="Quantumult X 资源解析器以及正则表达式 - 无需 API 即可在本地过滤节点"><img class="aside-post-bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Quantumult X 资源解析器以及正则表达式 - 无需 API 即可在本地过滤节点"/></a><div class="aside-post-info"><a class="aside-post-title" href="/2020/07/26/quantumult-x/" title="Quantumult X 资源解析器以及正则表达式 - 无需 API 即可在本地过滤节点">Quantumult X 资源解析器以及正则表达式 - 无需 API 即可在本地过滤节点</a><time class="aside-post_meta post-meta-date" datetime="2020-07-26T15:30:07.000Z" title="Created 2020-07-26 23:30:07">2020-07-26</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/2020/07/22/markdown/" title="Markdown基本语法"><img class="aside-post-bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Markdown基本语法"/></a><div class="aside-post-info"><a class="aside-post-title" href="/2020/07/22/markdown/" title="Markdown基本语法">Markdown基本语法</a><time class="aside-post_meta post-meta-date" datetime="2020-07-22T08:59:27.000Z" title="Created 2020-07-22 16:59:27">2020-07-22</time></div></div><div class="aside-recent-post"><a class="aside-post-cover" href="/2020/07/22/Debian/" title="Debian使用第三方客户端连接SSH"><img class="aside-post-bg" data-lazy-src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Debian使用第三方客户端连接SSH"/></a><div class="aside-post-info"><a class="aside-post-title" href="/2020/07/22/Debian/" title="Debian使用第三方客户端连接SSH">Debian使用第三方客户端连接SSH</a><time class="aside-post_meta post-meta-date" datetime="2020-07-22T08:15:29.000Z" title="Created 2020-07-22 16:15:29">2020-07-22</time></div></div></div></div></div><div class="card-widget card-tags"><div class="card-content"><div class="item-headline"><i class="fas fa-tags"></i><span>Tags</span></div><div class="card-tag-cloud"><a href="/tags/AE/" style="font-size: 16px; color: #999">AE</a> <a href="/tags/Docker/" style="font-size: 16px; color: #999">Docker</a> <a href="/tags/Github/" style="font-size: 16px; color: #999">Github</a> <a href="/tags/Gridea/" style="font-size: 16px; color: #999">Gridea</a> <a href="/tags/Markdown/" style="font-size: 16px; color: #999">Markdown</a> <a href="/tags/Quantumult-X/" style="font-size: 19px; color: #99a1ac">Quantumult X</a> <a href="/tags/Telegram/" style="font-size: 22px; color: #99a9bf">Telegram</a> <a href="/tags/vps/" style="font-size: 16px; color: #999">vps</a></div></div></div><div class="card-widget card-archives"><div class="card-content"><div class="item-headline"><i class="fas fa-archive"></i><span>Archives</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2020/07/"><span class="card-archive-list-date">July 2020</span><span class="card-archive-list-count">13</span></a></li></ul></div></div><div class="card-widget card-webinfo"><div class="card-content"><div class="item-headline"><i class="fas fa-chart-line"></i><span>Info</span></div><div class="webinfo"><div class="webinfo-item"><div class="webinfo-article-name">Article :</div><div class="webinfo-article-count">13</div></div><div class="webinfo-item">      <div class="webinfo-site-uv-name">UV :</div><div class="webinfo-site-uv-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="webinfo-site-name">PV :</div><div class="webinfo-site-pv-count" id="busuanzi_value_site_pv"></div></div></div></div></div></div></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By John Doe</div><div class="framework-info"><span>Framework </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>Theme </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="Switch Between Light And Dark Mode"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="Setting"><i class="fas fa-cog"></i></button><button id="go-up" type="button" title="Back To Top"><i class="fas fa-arrow-up"></i></button></div></section><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><div class="js-pjax"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>
