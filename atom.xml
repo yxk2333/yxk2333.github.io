@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="lelia.club/"/>
-  <updated>2020-07-30T08:24:38.440Z</updated>
+  <updated>2020-08-03T14:49:31.337Z</updated>
   <id>lelia.club/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>UX | 如何编写交互文档</title>
+    <link href="lelia.club/2020/08/03/Design%20Requirement%20Document/"/>
+    <id>lelia.club/2020/08/03/Design%20Requirement%20Document/</id>
+    <published>2020-08-03T13:17:02.387Z</published>
+    <updated>2020-08-03T14:49:31.337Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是交互文档？"><a href="#什么是交互文档？" class="headerlink" title="什么是交互文档？"></a>什么是交互文档？</h2><p>交互文档，即交互设计说明文档。英文 ”Design Requirement Document“，缩写<code>&quot;DRD&quot;</code> 。用来承载<code>设计方案</code>、<code>交互原型</code>、<code>交互说明</code>等内容，存档并交互项目相关伙伴的团队协作文档。</p><h2 id="为什么需要交互文档？"><a href="#为什么需要交互文档？" class="headerlink" title="为什么需要交互文档？"></a>为什么需要交互文档？</h2><p>你也许会说：“产品经理就可输出DRD，无需交互设计师。”但其实，许多交互设计师也可承担产品经理的角色…说白了，岗位名称不过是对工作职责的划分而已，是公司或部门提高专业性和工作效率已达到公司目标的一种方式。</p><p>交互设计师的作用是<code>“对接上下游，承上启下”</code>，无论是在方案审评的讲解，还是日常的工作沟通，都应具备优秀的语言表达和DRD表达能力。</p><p>而DRD不仅能完美阐释产品内容和设计思路，还利于设计规范与统一，让产品保持一致性，在项目各方协调工作中起到重要作用，也方便后期进行项目总结。</p><p>因此，DRD是利于团队协作的媒介，也是产品规范与项目总结的重要输出物。</p><h2 id="有谁在看交互文档？"><a href="#有谁在看交互文档？" class="headerlink" title="有谁在看交互文档？"></a>有谁在看交互文档？</h2><p><strong>业务方/需求方</strong>：包括产品经理/运营经理，这里大多指产品经理。</p><p>Ta们会通过DRD关注你的设计方案是否满足业务和用户需求。交互设计师与Ta们讨论产品规划及业务需求后，结合用户需求，分解关键因素，最终归纳出设计需求。而DRD正是整个设计思路的阐述媒介。</p><p><strong>视觉设计师</strong>：这里包括视觉UI设计师，包括动画设计师。</p><p>Ta们需要知道产品定位是怎样的？有哪些页面要设计？页面间的跳转是怎样的？各页面各元素包括什么状态？遇到特殊情况（数据加载、网络异常、极端情况）如何设计？</p><p><strong>开发人员</strong>：包括IOS、Android、H5、Web等前端开发工程师和后端工程师。</p><p>Ta们需从DRD知道，产品要实现多少功能？多少页面？如何去实现？页面间是怎么跳转的？异常情况怎么处理？…然后用代码将其实现出来。</p><p><strong>测试人员</strong>：包括测试工程师和参与测试的其他人。</p><p>Ta们需要参考DRD梳理测试用例，测试用例须覆盖所有功能、使用场景、操作行为、产品细节，需保证上线无bug，或是少bug状态。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;什么是交互文档？&quot;&gt;&lt;a href=&quot;#什么是交互文档？&quot; class=&quot;headerlink&quot; title=&quot;什么是交互文档？&quot;&gt;&lt;/a&gt;什么是交互文档？&lt;/h2&gt;&lt;p&gt;交互文档，即交互设计说明文档。英文 ”Design Requirement
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="UX" scheme="lelia.club/tags/UX/"/>
+    
+  </entry>
   
   <entry>
     <title>Telegram-Name-Updating 报时bot</title>
