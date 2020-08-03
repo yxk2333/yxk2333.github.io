@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>evilcos的博客</title>
+  <icon>lelia.club/icon.png</icon>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="lelia.club/"/>
+  <updated>2020-07-30T08:24:38.440Z</updated>
+  <id>lelia.club/</id>
+  
+  <author>
+    <name>evilcos</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Telegram-Name-Updating 报时bot</title>
+    <link href="lelia.club/2020/07/29/Telegram-bot/"/>
+    <id>lelia.club/2020/07/29/Telegram-bot/</id>
+    <published>2020-07-29T02:44:00.000Z</published>
+    <updated>2020-07-30T08:24:38.440Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-准备&quot;&gt;&lt;a href=&quot;#1-准备&quot; class=&quot;headerlink&quot; title=&quot;1.准备&quot;&gt;&lt;/a&gt;1.准备&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;运行环境：VPS, Python, Python3-pip&lt;br&gt;创建应用：&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Telegram" scheme="lelia.club/tags/Telegram/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>simpread-人形自走 bot PagerMaid-Modify 的食用笔记</title>
+    <link href="lelia.club/2020/07/29/Telegram-bot(PagerMaid)/"/>
+    <id>lelia.club/2020/07/29/Telegram-bot(PagerMaid)/</id>
+    <published>2020-07-29T02:38:50.000Z</published>
+    <updated>2020-08-02T11:12:13.424Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;申请Telegram api&lt;br&gt;&lt;a href=&quot;https://i.loli.net/2020/06/20/3C5h1ZmTNoncWxv.png&quot;&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Telegram" scheme="lelia.club/tags/Telegram/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Quantumult X 资源解析器以及正则表达式 - 无需 API 即可在本地过滤节点</title>
+    <link href="lelia.club/2020/07/26/quantumult-x/"/>
+    <id>lelia.club/2020/07/26/quantumult-x/</id>
+    <published>2020-07-26T15:30:07.000Z</published>
+    <updated>2020-08-02T13:49:13.764Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;每日一问&quot;&gt;&lt;a href=&quot;#每日一问&quot; class=&quot;headerlink&quot; title=&quot;每日一问&quot;&gt;&lt;/a&gt;每日一问&lt;/h2&gt;&lt;p&gt;还在用 API 过滤节点吗？醒醒吧，本地&lt;strong&gt;资源解析器&lt;/strong&gt;它不香吗？&lt;/p&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Quantumult X" scheme="lelia.club/tags/Quantumult-X/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown基本语法</title>
+    <link href="lelia.club/2020/07/22/markdown/"/>
+    <id>lelia.club/2020/07/22/markdown/</id>
+    <published>2020-07-22T08:59:27.000Z</published>
+    <updated>2020-08-03T04:41:25.959Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-基本语法&quot;&gt;&lt;a href=&quot;#1-基本语法&quot; class=&quot;headerlink&quot; title=&quot;1. 基本语法&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#1-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95&quot; title=&quot;1.
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Markdown" scheme="lelia.club/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Debian使用第三方客户端连接SSH</title>
+    <link href="lelia.club/2020/07/22/Debian/"/>
+    <id>lelia.club/2020/07/22/Debian/</id>
+    <published>2020-07-22T08:15:29.000Z</published>
+    <updated>2020-08-02T13:51:33.451Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一、修改ssh配置文件并设置root密码&quot;&gt;&lt;a href=&quot;#一、修改ssh配置文件并设置root密码&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="vps" scheme="lelia.club/tags/vps/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker | 制作属于自己的 Jenkins 镜像</title>
+    <link href="lelia.club/2020/07/20/Docker/"/>
+    <id>lelia.club/2020/07/20/Docker/</id>
+    <published>2020-07-20T09:17:42.000Z</published>
+    <updated>2020-08-02T13:52:39.666Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;有时候我们可能需要为了满足自己的需求来制作自己的 Docker 镜像。&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近我在使用 Docker 搭建 Jenkins
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Docker" scheme="lelia.club/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Telegram收发QQ消息</title>
+    <link href="lelia.club/2020/07/19/telegram-qq/"/>
+    <id>lelia.club/2020/07/19/telegram-qq/</id>
+    <published>2020-07-19T08:02:37.000Z</published>
+    <updated>2020-07-30T08:26:27.897Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;使用&lt;a href=&quot;https://github.com/blueset/ehForwarderBot&quot;&gt;EFB&lt;/a&gt;, &lt;a href=&quot;https://github.com/blueset/efb-telegram-master&quot;&gt;ETM&lt;/a&gt;, &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Telegram" scheme="lelia.club/tags/Telegram/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Telegram收发微信消息</title>
+    <link href="lelia.club/2020/07/19/telegram-wechat/"/>
+    <id>lelia.club/2020/07/19/telegram-wechat/</id>
+    <published>2020-07-19T07:25:04.000Z</published>
+    <updated>2020-07-30T08:26:46.184Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;使用&lt;a href=&quot;https://github.com/blueset/ehForwarderBot&quot;&gt;EFB&lt;/a&gt;, &lt;a href=&quot;https://github.com/blueset/efb-telegram-master&quot;&gt;ETM&lt;/a&gt;, &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Telegram" scheme="lelia.club/tags/Telegram/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>小白编写签到脚本</title>
+    <link href="lelia.club/2020/07/16/check/"/>
+    <id>lelia.club/2020/07/16/check/</id>
+    <published>2020-07-16T06:19:44.000Z</published>
+    <updated>2020-07-30T08:27:02.102Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;关于如何自己编写签到脚本&quot;&gt;&lt;a href=&quot;#关于如何自己编写签到脚本&quot; class=&quot;headerlink&quot; title=&quot;关于如何自己编写签到脚本&quot;&gt;&lt;/a&gt;关于如何自己编写签到脚本&lt;/h2&gt;&lt;h2 id=&quot;GET方法篇-豆瓣时间为例子&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Quantumult X" scheme="lelia.club/tags/Quantumult-X/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>幕布高级版兑换码无限兑换</title>
+    <link href="lelia.club/2020/07/15/mu-bu/"/>
+    <id>lelia.club/2020/07/15/mu-bu/</id>
+    <published>2020-07-15T03:00:40.000Z</published>
+    <updated>2020-07-30T08:27:14.020Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;进入幕布官网地址&quot;&gt;&lt;a href=&quot;#进入幕布官网地址&quot; class=&quot;headerlink&quot; title=&quot;进入幕布官网地址&quot;&gt;&lt;/a&gt;进入幕布官网地址&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>《计算机是怎么跑起来的》</title>
+    <link href="lelia.club/2020/07/15/computer/"/>
+    <id>lelia.club/2020/07/15/computer/</id>
+    <published>2020-07-15T02:49:02.000Z</published>
+    <updated>2020-07-30T08:27:48.625Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;读后感&quot;&gt;&lt;a href=&quot;#读后感&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>AE表达式学习</title>
+    <link href="lelia.club/2020/07/15/AE/"/>
+    <id>lelia.club/2020/07/15/AE/</id>
+    <published>2020-07-15T02:10:21.000Z</published>
+    <updated>2020-08-02T16:15:14.458Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;什么是表达式？&quot;&gt;&lt;a href=&quot;#什么是表达式？&quot; class=&quot;headerlink&quot; title=&quot;什么是表达式？&quot;&gt;&lt;/a&gt;什么是表达式？&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;表达式的本质是通过 &lt;code&gt;设定的条件，计算出的值&lt;/code&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="AE" scheme="lelia.club/tags/AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Gridea配置GitHub Page</title>
+    <link href="lelia.club/2020/07/14/gridea-github-page/"/>
+    <id>lelia.club/2020/07/14/gridea-github-page/</id>
+    <published>2020-07-14T06:59:06.000Z</published>
+    <updated>2020-07-30T08:27:30.557Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Create-a-new-repository-创建仓库&quot;&gt;&lt;a href=&quot;#Create-a-new-repository-创建仓库&quot; class=&quot;headerlink&quot; title=&quot;Create a new repository
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Github" scheme="lelia.club/tags/Github/"/>
+    
+      <category term="Gridea" scheme="lelia.club/tags/Gridea/"/>
+    
+  </entry>
+  
+</feed>
