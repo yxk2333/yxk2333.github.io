@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>evilcos的博客</title>
+    <link>lelia.club/</link>
+    
+    <image>
+      <url>lelia.club/icon.png</url>
+      <title>evilcos的博客</title>
+      <link>lelia.club/</link>
+    </image>
+    
+    <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description></description>
+    <pubDate>Thu, 30 Jul 2020 08:24:38 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Telegram-Name-Updating 报时bot</title>
+      <link>lelia.club/2020/07/29/Telegram-bot/</link>
+      <guid>lelia.club/2020/07/29/Telegram-bot/</guid>
+      <pubDate>Wed, 29 Jul 2020 02:44:00 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;1-准备&quot;&gt;&lt;a href=&quot;#1-准备&quot; class=&quot;headerlink&quot; title=&quot;1.准备&quot;&gt;&lt;/a&gt;1.准备&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;运行环境：VPS, Python, Python3-pip&lt;br&gt;创建应用：&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/29/Telegram-bot/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>simpread-人形自走 bot PagerMaid-Modify 的食用笔记</title>
+      <link>lelia.club/2020/07/29/Telegram-bot(PagerMaid)/</link>
+      <guid>lelia.club/2020/07/29/Telegram-bot(PagerMaid)/</guid>
+      <pubDate>Wed, 29 Jul 2020 02:38:50 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;申请Telegram api&lt;br&gt;&lt;a href=&quot;https://i.loli.net/2020/06/20/3C5h1ZmTNoncWxv.png&quot;&gt;&lt;img
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/29/Telegram-bot(PagerMaid)/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Quantumult X 资源解析器以及正则表达式 - 无需 API 即可在本地过滤节点</title>
+      <link>lelia.club/2020/07/26/quantumult-x/</link>
+      <guid>lelia.club/2020/07/26/quantumult-x/</guid>
+      <pubDate>Sun, 26 Jul 2020 15:30:07 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;每日一问&quot;&gt;&lt;a href=&quot;#每日一问&quot; class=&quot;headerlink&quot; title=&quot;每日一问&quot;&gt;&lt;/a&gt;每日一问&lt;/h2&gt;&lt;p&gt;还在用 API 过滤节点吗？醒醒吧，本地&lt;strong&gt;资源解析器&lt;/strong&gt;它不香吗？&lt;/p&gt;
+&lt;h2
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/26/quantumult-x/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Markdown基本语法</title>
+      <link>lelia.club/2020/07/22/markdown/</link>
+      <guid>lelia.club/2020/07/22/markdown/</guid>
+      <pubDate>Wed, 22 Jul 2020 08:59:27 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;1-基本语法&quot;&gt;&lt;a href=&quot;#1-基本语法&quot; class=&quot;headerlink&quot; title=&quot;1. 基本语法&quot;&gt;&lt;/a&gt;&lt;a href=&quot;#1-%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95&quot; title=&quot;1.
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/22/markdown/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Debian使用第三方客户端连接SSH</title>
+      <link>lelia.club/2020/07/22/Debian/</link>
+      <guid>lelia.club/2020/07/22/Debian/</guid>
+      <pubDate>Wed, 22 Jul 2020 08:15:29 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;一、修改ssh配置文件并设置root密码&quot;&gt;&lt;a href=&quot;#一、修改ssh配置文件并设置root密码&quot; class=&quot;headerlink&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/22/Debian/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Docker | 制作属于自己的 Jenkins 镜像</title>
+      <link>lelia.club/2020/07/20/Docker/</link>
+      <guid>lelia.club/2020/07/20/Docker/</guid>
+      <pubDate>Mon, 20 Jul 2020 09:17:42 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;有时候我们可能需要为了满足自己的需求来制作自己的 Docker 镜像。&lt;/p&gt;
+&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近我在使用 Docker 搭建 Jenkins
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/20/Docker/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>使用Telegram收发QQ消息</title>
+      <link>lelia.club/2020/07/19/telegram-qq/</link>
+      <guid>lelia.club/2020/07/19/telegram-qq/</guid>
+      <pubDate>Sun, 19 Jul 2020 08:02:37 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;使用&lt;a href=&quot;https://github.com/blueset/ehForwarderBot&quot;&gt;EFB&lt;/a&gt;, &lt;a href=&quot;https://github.com/blueset/efb-telegram-master&quot;&gt;ETM&lt;/a&gt;, &lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/19/telegram-qq/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>使用Telegram收发微信消息</title>
+      <link>lelia.club/2020/07/19/telegram-wechat/</link>
+      <guid>lelia.club/2020/07/19/telegram-wechat/</guid>
+      <pubDate>Sun, 19 Jul 2020 07:25:04 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;p&gt;使用&lt;a href=&quot;https://github.com/blueset/ehForwarderBot&quot;&gt;EFB&lt;/a&gt;, &lt;a href=&quot;https://github.com/blueset/efb-telegram-master&quot;&gt;ETM&lt;/a&gt;, &lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/19/telegram-wechat/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>小白编写签到脚本</title>
+      <link>lelia.club/2020/07/16/check/</link>
+      <guid>lelia.club/2020/07/16/check/</guid>
+      <pubDate>Thu, 16 Jul 2020 06:19:44 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;关于如何自己编写签到脚本&quot;&gt;&lt;a href=&quot;#关于如何自己编写签到脚本&quot; class=&quot;headerlink&quot; title=&quot;关于如何自己编写签到脚本&quot;&gt;&lt;/a&gt;关于如何自己编写签到脚本&lt;/h2&gt;&lt;h2 id=&quot;GET方法篇-豆瓣时间为例子&quot;&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/16/check/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>幕布高级版兑换码无限兑换</title>
+      <link>lelia.club/2020/07/15/mu-bu/</link>
+      <guid>lelia.club/2020/07/15/mu-bu/</guid>
+      <pubDate>Wed, 15 Jul 2020 03:00:40 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;进入幕布官网地址&quot;&gt;&lt;a href=&quot;#进入幕布官网地址&quot; class=&quot;headerlink&quot; title=&quot;进入幕布官网地址&quot;&gt;&lt;/a&gt;进入幕布官网地址&lt;/h2&gt;&lt;p&gt;&lt;a
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/15/mu-bu/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>《计算机是怎么跑起来的》</title>
+      <link>lelia.club/2020/07/15/computer/</link>
+      <guid>lelia.club/2020/07/15/computer/</guid>
+      <pubDate>Wed, 15 Jul 2020 02:49:02 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;读后感&quot;&gt;&lt;a href=&quot;#读后感&quot; class=&quot;headerlink&quot;
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/15/computer/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>AE表达式学习</title>
+      <link>lelia.club/2020/07/15/AE/</link>
+      <guid>lelia.club/2020/07/15/AE/</guid>
+      <pubDate>Wed, 15 Jul 2020 02:10:21 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;什么是表达式？&quot;&gt;&lt;a href=&quot;#什么是表达式？&quot; class=&quot;headerlink&quot; title=&quot;什么是表达式？&quot;&gt;&lt;/a&gt;什么是表达式？&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;表达式的本质是通过 &lt;code&gt;设定的条件，计算出的值&lt;/code&gt;
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/15/AE/#disqus_thread</comments>
+    </item>
+    
+    <item>
+      <title>Gridea配置GitHub Page</title>
+      <link>lelia.club/2020/07/14/gridea-github-page/</link>
+      <guid>lelia.club/2020/07/14/gridea-github-page/</guid>
+      <pubDate>Tue, 14 Jul 2020 06:59:06 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;Create-a-new-repository-创建仓库&quot;&gt;&lt;a href=&quot;#Create-a-new-repository-创建仓库&quot; class=&quot;headerlink&quot; title=&quot;Create a new repository
+          
+        
+      
+      </description>
+      
+      
+      <comments>lelia.club/2020/07/14/gridea-github-page/#disqus_thread</comments>
+    </item>
+    
+  </channel>
+</rss>
