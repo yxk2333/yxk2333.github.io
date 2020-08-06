@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="lelia.club/"/>
-  <updated>2020-08-04T07:12:50.968Z</updated>
+  <updated>2020-08-06T09:10:46.570Z</updated>
   <id>lelia.club/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Go语言学习</title>
+    <link href="lelia.club/2020/08/05/Go/"/>
+    <id>lelia.club/2020/08/05/Go/</id>
+    <published>2020-08-05T06:43:36.683Z</published>
+    <updated>2020-08-06T09:10:46.570Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="原始类型"><a href="#原始类型" class="headerlink" title="原始类型"></a>原始类型</h2><h3 id="原始的数值类型包括："><a href="#原始的数值类型包括：" class="headerlink" title="原始的数值类型包括："></a>原始的数值类型包括：</h3><ol><li><code>bool</code>,</li><li><code>uint</code>, <code>uint8</code>, <code>uint16</code>, <code>uint32</code>, <code>uint64</code>,</li><li><code>int8</code>, <code>int16</code>, <code>int32</code>, <code>int64</code>,</li><li><code>float32</code>, <code>float64</code>,</li><li><code>complex64</code>, <code>complex128</code></li></ol><h3 id="别名类型包括：byte-rune"><a href="#别名类型包括：byte-rune" class="headerlink" title="别名类型包括：byte rune"></a>别名类型包括：byte rune</h3><h2 id="基本语法–变量"><a href="#基本语法–变量" class="headerlink" title="基本语法–变量"></a>基本语法–变量</h2><h3 id="一、变量的使用"><a href="#一、变量的使用" class="headerlink" title="一、变量的使用"></a>一、变量的使用</h3><h4 id="1-1-什么是变量"><a href="#1-1-什么是变量" class="headerlink" title="1.1 什么是变量"></a>1.1 什么是变量</h4><p>变量是为储存特定类型的值而提供给内存位置的名称。在go中声明变量有多种语法。</p><p>所以<code>变量的本质就是一小块内存</code>，用于储存数据，在程序运行过程过程中数值可以改变（不可改变则为常量）</p><h4 id="1-2-声明变量"><a href="#1-2-声明变量" class="headerlink" title="1.2 声明变量"></a>1.2 声明变量</h4><p>var名称类型是声明单个变量的语法。</p><blockquote><p>以字母或下划线开头，由一个或多个字母、数字、下划线组成</p></blockquote><p>声明一个变量</p><p>第一种，指定变量类型，声明后若不赋值，使用默认值</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> name <span class="keyword">type</span></span><br><span class="line">name = value</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;原始类型&quot;&gt;&lt;a href=&quot;#原始类型&quot; class=&quot;headerlink&quot; title=&quot;原始类型&quot;&gt;&lt;/a&gt;原始类型&lt;/h2&gt;&lt;h3 id=&quot;原始的数值类型包括：&quot;&gt;&lt;a href=&quot;#原始的数值类型包括：&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="GO" scheme="lelia.club/tags/GO/"/>
+    
+  </entry>
   
   <entry>
     <title>UX | 如何编写交互文档</title>
