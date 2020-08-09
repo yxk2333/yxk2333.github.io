@@ -46,12 +46,6 @@ collections:
     name: pages
     delete: false
     files:
-      - name: about-index.md
-        label: about
-        file: source\about\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: categories-index.md
         label: 分类
         file: source\categories\index.md
@@ -61,6 +55,12 @@ collections:
       - name: link-index.md
         label: 友情链接
         file: source\link\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: about
+        file: source\about\index.md
         editor:
           preview: true
         fields: *ref_0
