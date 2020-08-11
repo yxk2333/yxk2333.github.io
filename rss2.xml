@@ -15,8 +15,31 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sun, 09 Aug 2020 05:20:48 GMT</pubDate>
+    <pubDate>Tue, 11 Aug 2020 16:16:51 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>android root</title>
+      <link>lelia.club/2020/08/11/android-root/</link>
+      <guid>lelia.club/2020/08/11/android-root/</guid>
+      <pubDate>Tue, 11 Aug 2020 10:06:35 GMT</pubDate>
+      <description>
+      
+        
+        
+          
+          
+            &lt;h2 id=&quot;Huawei-Honor8-FRD-AL10刷机教程&quot;&gt;&lt;a href=&quot;#Huawei-Honor8-FRD-AL10刷机教程&quot; class=&quot;headerlink&quot; title=&quot;Huawei Honor8 FRD-AL10刷机教程&quot;&gt;&lt;/a&gt;Huawei
+          
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<h2 id="Huawei-Honor8-FRD-AL10刷机教程"><a href="#Huawei-Honor8-FRD-AL10刷机教程" class="headerlink" title="Huawei Honor8 FRD-AL10刷机教程"></a>Huawei Honor8 FRD-AL10刷机教程</h2><ul><li>工具：<ul><li>硬件：Windows 10, Huawei Honor8 FRD-AL10</li><li>软件：刷机工具-fastboot，第三方rec-奇图rec镜像文件，刷机包-LineageOS 16.0 Build 4</li></ul></li></ul><blockquote><p>前言：刷机有风险，刷机前自行备份数据。</p></blockquote><h3 id="第一步、解锁BL锁"><a href="#第一步、解锁BL锁" class="headerlink" title="第一步、解锁BL锁"></a>第一步、解锁BL锁</h3><p><code>注意：华为已于2018年5月关闭解锁码申请通道</code></p><p>如需解锁，请去淘宝购买“解锁码”。</p><h3 id="第二步、必要的设置"><a href="#第二步、必要的设置" class="headerlink" title="第二步、必要的设置"></a>第二步、必要的设置</h3><ol><li><p>将查找手机和云空间关闭，指纹全部删除。</p></li><li><p>开启USB调试模式</p><ol><li>在版本号这一栏多次点击，出现“您已处于开发者模式”后，进入开发者模式打开USB调试功能。</li></ol></li><li><p>准备软件</p><ol><li>刷机工具-fastboot <a href="https://1drv.ms/u/s!AqqMope_0obP6wjE0NwtbA9i46pW?e=F8cmJi">点击下载</a></li><li>第三方rec-奇图rec镜像文件 huawei-honor-8-em8_0_qitu.img  <a href="https://1drv.ms/u/s!AqqMope_0obP6wnjk7vcDh1F46jk?e=ouWPHn">点击下载</a></li><li>刷机包-LineageOS 16.0 Build 4镜像文件 <a href="https://openkirin.net/download/">点击下载</a><ol><li>该网站包含AOSP,OmniROM, Resurrection Remix OS, LineageOS，只要下载一个。原来的系统是EMUI8就选EMUI 8-based Builds下的。</li></ol></li></ol></li><li><p>放置文件</p><ol><li><p>解压刷机工具fastboot并生成fastboot文件夹，解压LineageOS 16.0 Build 4.xz为镜像文件。</p></li><li><p>将解压得到的<code>huawei-honor-8-em8_0_qitu.img</code>和下载的<code>huawei-honor-8-em8_0_qitu.img</code>镜像文件放到生成的fastboot文件夹内。如下图所示：</p><p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2020/08/11/YnDdUhKVs1N5cak.jpg" alt="文件夹内包含的文件"></p></li></ol></li></ol><h3 id="第三步、进入fastboot模式"><a href="#第三步、进入fastboot模式" class="headerlink" title="第三步、进入fastboot模式"></a>第三步、进入fastboot模式</h3><p>手机关机，待完全关闭后，用数据线连接电脑，按住<code>电源键</code>+<code>音量下键</code>，知道出现安卓绿色小机器人，下方应为红字phone unlocked。</p><p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2020/08/11/F7zVPZHNahCopKg.jpg" alt="phone unlocked"></p><h3 id="刷入奇兔rec"><a href="#刷入奇兔rec" class="headerlink" title="刷入奇兔rec"></a>刷入奇兔rec</h3><ol><li><p>在fastboot文件夹看空白处，按住<code>shift</code>+<code>鼠标右键</code>，进入PowerShell</p></li><li><p>在powerShell中输入命令：</p></li></ol><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\fastboot flash recovery_ramdisk huawei-honor-<span class="number">8</span>-em8_0_qitu.img</span><br></pre></td></tr></table></figure><ol start="3"><li><p>直到出现”finished“和后面的所用时间,则成功。</p></li><li><p>清除数据</p><ol><li><p>拔掉USB数据线，按住<code>电源键</code>+<code>音量上键</code>，直到出现honor和logo(可以松开案件了)，进入twrp recovery模式。</p></li><li><p>点击“清除”，选择“格式化data分区”，yes</p><p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2020/08/11/aJm7EvP8lkAOFoD.png" alt="Screenshot_2020-08-11-06-24-21.png"></p></li></ol></li></ol><p>   按界面最下边的左边的三角形回到主界面，回到主界面都按这个</p><p>   <img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2020/08/11/P7RHTGFs3rYn9BC.png" alt="Screenshot_2020-08-11-06-24-211.png"></p><p>点击”高级”，选择”移除DATA”强制加密</p><p><img src= "/img/loading.gif" data-lazy-src="https://i.loli.net/2020/08/11/il6GZxmpehCFMvn.png" alt="Screenshot_2020-08-11-06-25-15.png"></p><p>回到主界面，选择”重启”，”关机”</p><h3 id="刷入刷机包"><a href="#刷入刷机包" class="headerlink" title="刷入刷机包"></a>刷入刷机包</h3><p>手机关机后，用数据线连接电脑，按住<code>电源键</code>+<code>音量下键</code>，直到安卓绿色小机器人再次进入fastboot模式。</p><p>在fastboot文件夹空白处 按住<code>shift</code>+<code>鼠标右键</code>，进入powershell</p><p>在powershell输入命令：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\fastboot flash system LineageOS <span class="number">16.0</span> Build <span class="number">4.</span>img</span><br></pre></td></tr></table></figure><p>直到出现”finished”和后面的所用时间。</p><h3 id="重启"><a href="#重启" class="headerlink" title="重启"></a>重启</h3><p>在powershell输入命令：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">.\fastboot reboot</span><br></pre></td></tr></table></figure><p>拔掉USB数据线，接下来它会自动开机</p><p>刷机完毕</p><h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><h3 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h3><ul><li>第一次开机配置不要连接wifi，否则会导致无法进入系统（无限卡谷歌）。配置完后可连接wifi，一开始会显示”已经连接但不可以上网“，实际上是可以上的。</li><li>通知栏中的pixel设置和Android设备可以长按停止通知。</li></ul>]]></content:encoded>
+      
+      <comments>lelia.club/2020/08/11/android-root/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>Go语言学习</title>
