@@ -15,21 +15,8 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Sat, 05 Sep 2020 10:00:07 GMT</pubDate>
+    <pubDate>Sun, 30 Aug 2020 02:56:36 GMT</pubDate>
     <generator>http://hexo.io/</generator>
-    
-    <item>
-      <title>git bug</title>
-      <link>lelia.club/2020/09/05/git-bug/</link>
-      <guid>lelia.club/2020/09/05/git-bug/</guid>
-      <pubDate>Sat, 05 Sep 2020 09:59:41 GMT</pubDate>
-      <description>
-      
-      </description>
-      
-      
-      <comments>lelia.club/2020/09/05/git-bug/#disqus_thread</comments>
-    </item>
     
     <item>
       <title>京东定时签到-GitHub 实现</title>
