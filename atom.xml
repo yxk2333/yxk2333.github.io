@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="lelia.club/"/>
-  <updated>2020-09-10T12:28:16.105Z</updated>
+  <updated>2020-09-19T16:18:06.052Z</updated>
   <id>lelia.club/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>EFB QQ Slave Channel：EFB QQ 从端 (EQS)</title>
+    <link href="lelia.club/2020/09/20/qqbot/"/>
+    <id>lelia.club/2020/09/20/qqbot/</id>
+    <published>2020-09-19T16:09:57.000Z</published>
+    <updated>2020-09-19T16:18:06.052Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+      <category term="Telegram" scheme="lelia.club/tags/Telegram/"/>
+    
+  </entry>
   
   <entry>
     <title>chenlie</title>
