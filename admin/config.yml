@@ -65,7 +65,7 @@ collections:
           preview: true
         fields: *ref_0
       - name: link-index.md
-        label: 图片展示
+        label: 图片
         file: source\link\index.md
         editor:
           preview: true
