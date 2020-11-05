@@ -88,3 +88,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: Onmyoji-Onmyoji.md
+        label: Onmyoji
+        file: source\Onmyoji\Onmyoji.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: gallery-Onmyoji.md
+        label: 阴阳师
+        file: source\gallery\Onmyoji.md
+        editor:
+          preview: true
+        fields: *ref_0
