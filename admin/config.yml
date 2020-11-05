@@ -64,9 +64,21 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: link-index.md
+      - name: gallery-index.md
         label: 图片
-        file: source\link\index.md
+        file: source\gallery\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: gallery-lol.md
+        label: 英雄联盟
+        file: source\gallery\lol.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: 英雄联盟-index.md
+        label: 英雄联盟
+        file: source\英雄联盟\index.md
         editor:
           preview: true
         fields: *ref_0
