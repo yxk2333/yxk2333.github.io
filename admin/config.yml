@@ -46,21 +46,9 @@ collections:
     name: pages
     delete: false
     files:
-      - name: categories-index.md
-        label: 分类
-        file: source\categories\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: about-index.md
         label: about
         file: source\about\index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: tags-index.md
-        label: 标签
-        file: source\tags\index.md
         editor:
           preview: true
         fields: *ref_0
@@ -70,15 +58,27 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: gallery-lol.md
-        label: 英雄联盟
-        file: source\gallery\lol.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: 英雄联盟-index.md
         label: 英雄联盟
         file: source\英雄联盟\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: tags-index.md
+        label: 标签
+        file: source\tags\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: categories-index.md
+        label: 分类
+        file: source\categories\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: gallery-lol.md
+        label: 英雄联盟
+        file: source\gallery\lol.md
         editor:
           preview: true
         fields: *ref_0
