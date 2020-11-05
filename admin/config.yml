@@ -53,7 +53,7 @@ collections:
           preview: true
         fields: *ref_0
       - name: gallery-index.md
-        label: 魔兽世界
+        label: 图片
         file: source\gallery\index.md
         editor:
           preview: true
