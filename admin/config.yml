@@ -58,12 +58,6 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: 英雄联盟-index.md
-        label: 英雄联盟
-        file: source\英雄联盟\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: tags-index.md
         label: 标签
         file: source\tags\index.md
@@ -79,6 +73,18 @@ collections:
       - name: gallery-lol.md
         label: 英雄联盟
         file: source\gallery\lol.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: Warcraft-World of Warcraft.md
+        label: Warcraft
+        file: source\Warcraft\World of Warcraft.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: gallery-World of Warcraft.md
+        label: Warcraft
+        file: source\gallery\World of Warcraft.md
         editor:
           preview: true
         fields: *ref_0
