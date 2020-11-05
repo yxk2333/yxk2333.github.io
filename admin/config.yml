@@ -47,7 +47,7 @@ collections:
     delete: false
     files:
       - name: about-index.md
-        label: about
+        label: 关于我
         file: source\about\index.md
         editor:
           preview: true
