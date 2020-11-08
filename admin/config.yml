@@ -46,15 +46,15 @@ collections:
     name: pages
     delete: false
     files:
-      - name: gallery-Genshin Impact.md
-        label: 元神
-        file: source\gallery\Genshin Impact.md
+      - name: about-index.md
+        label: 关于我
+        file: source\about\index.md
         editor:
           preview: true
         fields: *ref_0
-      - name: gallery-index.md
-        label: 图片
-        file: source\gallery\index.md
+      - name: gallery-Genshin Impact.md
+        label: 元神
+        file: source\gallery\Genshin Impact.md
         editor:
           preview: true
         fields: *ref_0
@@ -64,27 +64,15 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: gallery-index.md
+        label: 图片
+        file: source\gallery\index.md
+        editor:
+          preview: true
+        fields: *ref_0
       - name: gallery-World of Warcraft.md
         label: 魔兽世界
         file: source\gallery\World of Warcraft.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: about-index.md
-        label: 关于我
-        file: source\about\index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: categories-index.md
-        label: 分类
-        file: source\categories\index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: gallery-lol.md
-        label: 英雄联盟
-        file: source\gallery\lol.md
         editor:
           preview: true
         fields: *ref_0
@@ -94,9 +82,21 @@ collections:
         editor:
           preview: true
         fields: *ref_0
+      - name: gallery-lol.md
+        label: 英雄联盟
+        file: source\gallery\lol.md
+        editor:
+          preview: true
+        fields: *ref_0
       - name: tags-index.md
         label: 标签
         file: source\tags\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: categories-index.md
+        label: 分类
+        file: source\categories\index.md
         editor:
           preview: true
         fields: *ref_0
