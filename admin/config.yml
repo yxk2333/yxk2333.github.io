@@ -46,21 +46,21 @@ collections:
     name: pages
     delete: false
     files:
-      - name: about-index.md
-        label: 我的小秘密
-        file: source\about\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: categories-index.md
         label: 分类
         file: source\categories\index.md
         editor:
           preview: true
         fields: *ref_0
-      - name: movies-index.md
-        label: 视频
-        file: source\movies\index.md
+      - name: gallery-Onmyoji.md
+        label: 阴阳师
+        file: source\gallery\Onmyoji.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: 我的小秘密
+        file: source\about\index.md
         editor:
           preview: true
         fields: *ref_0
@@ -70,9 +70,9 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: gallery-Onmyoji.md
-        label: 阴阳师
-        file: source\gallery\Onmyoji.md
+      - name: movies-index.md
+        label: 视频
+        file: source\movies\index.md
         editor:
           preview: true
         fields: *ref_0
