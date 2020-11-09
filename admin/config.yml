@@ -47,7 +47,7 @@ collections:
     delete: false
     files:
       - name: about-index.md
-        label: 关于我
+        label: 我的小秘密
         file: source\about\index.md
         editor:
           preview: true
@@ -55,6 +55,12 @@ collections:
       - name: categories-index.md
         label: 分类
         file: source\categories\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: movies-index.md
+        label: 视频
+        file: source\movies\index.md
         editor:
           preview: true
         fields: *ref_0
@@ -85,12 +91,6 @@ collections:
       - name: gallery-lol.md
         label: 英雄联盟
         file: source\gallery\lol.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: movies-index.md
-        label: 视频
-        file: source\movies\index.md
         editor:
           preview: true
         fields: *ref_0
