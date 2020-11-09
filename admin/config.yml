@@ -46,33 +46,9 @@ collections:
     name: pages
     delete: false
     files:
-      - name: categories-index.md
-        label: 分类
-        file: source\categories\index.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: gallery-Onmyoji.md
-        label: 阴阳师
-        file: source\gallery\Onmyoji.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: about-index.md
-        label: 我的小秘密
-        file: source\about\index.md
-        editor:
-          preview: true
-        fields: *ref_0
       - name: gallery-Genshin Impact.md
         label: 元神
         file: source\gallery\Genshin Impact.md
-        editor:
-          preview: true
-        fields: *ref_0
-      - name: movies-index.md
-        label: 视频
-        file: source\movies\index.md
         editor:
           preview: true
         fields: *ref_0
@@ -82,15 +58,39 @@ collections:
         editor:
           preview: true
         fields: *ref_0
-      - name: gallery-index.md
-        label: 图片
-        file: source\gallery\index.md
+      - name: gallery-Onmyoji.md
+        label: 阴阳师
+        file: source\gallery\Onmyoji.md
         editor:
           preview: true
         fields: *ref_0
       - name: gallery-lol.md
         label: 英雄联盟
         file: source\gallery\lol.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: gallery-index.md
+        label: 图片
+        file: source\gallery\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: categories-index.md
+        label: 分类
+        file: source\categories\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: about-index.md
+        label: 我的小秘密
+        file: source\about\index.md
+        editor:
+          preview: true
+        fields: *ref_0
+      - name: movies-index.md
+        label: 视频
+        file: source\movies\index.md
         editor:
           preview: true
         fields: *ref_0
